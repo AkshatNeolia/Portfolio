@@ -4,26 +4,31 @@ import './Skills.css';
 const skills = [
   {
     id: 1,
+    title: "Python",
+    description: "Versatile programming for data science and web development.",
+  },
+  {
+    id: 2,
     title: "SQL",
     description: "Relational database management and data manipulation.",
   },
   {
-    id: 2,
+    id: 3,
     title: "Machine Learning",
     description: "Building predictive models and data-driven solutions.",
   },
   {
-    id: 3,
+    id: 4,
     title: "Statistics and Probability",
     description: "Statistical analysis and probabilistic modeling.",
   },
   {
-    id: 4,
+    id: 5,
     title: "Docker",
     description: "Containerization and deployment of machine learning models.",
   },
   {
-    id: 5,
+    id: 6,
     title: "Git",
     description: "Version control for collaborative and individual development.",
   },

@@ -1,30 +1,3 @@
-.portfolio__filters {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  column-gap: 1.875rem;
-  margin-bottom: 2.5rem;
-}
-
-.portfolio__item {
-  cursor: pointer;
-  font-weight: var(--font-bold);
-}
-
-.portfolio__item {
-  cursor: pointer;
-  font-weight: var(--font-bold);
-  transition: 0.3s;
-}
-
-.portfolio__item-active {
-  color: var(--first-color);
-}
-
-.portfolio__item:hover {
-  color: var(--first-color);
-}
-
 .portfolio__container {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.875rem;
@@ -52,21 +25,6 @@
   opacity: 0.9;
 }
 
-.portfolio__category {
-  color: #fff;
-  background-color: var(--first-color);
-  border-bottom-left-radius: 0.98rem;
-  border-bottom-right-radius: 0.98rem;
-  position: absolute;
-  top: 0;
-  left: 1.5rem;
-  font-size: var(--small-font-size);
-  display: inline-block;
-  padding: 0.19rem 0.625rem;
-  transform: translateY(-40px);
-  transition: 0.3s;
-}
-
 .portfolio__title {
   color: #fff;
   font-size: var(--h3-font-size);
@@ -79,11 +37,11 @@
   opacity: 0;
 }
 
-.portfolio__button {
+.portfolio__button,
+.portfolio__github-button {
   color: #fff;
   position: absolute;
   bottom: 1.5rem;
-  left: 1.5rem;
   font-size: var(--h3-font-size);
   display: block;
   background-color: #ffd15c;
@@ -97,22 +55,12 @@
   opacity: 0;
 }
 
+.portfolio__button {
+  left: 1.5rem;
+}
+
 .portfolio__github-button {
-  color: #fff;
-  position: absolute;
-  bottom: 1.5rem;
   left: 4.5rem;
-  font-size: var(--h3-font-size);
-  display: block;
-  background-color: #ffd15c;
-  height: 40px;
-  width: 40px;
-  cursor: pointer;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 42px;
-  transition: 0.3s;
-  opacity: 0;
 }
 
 .portfolio__card:hover .portfolio__button,
@@ -120,17 +68,12 @@
   opacity: 1;
 }
 
-.portfolio__card:hover .portfolio__title,
-.portfolio__card:hover .portfolio__category {
+.portfolio__card:hover .portfolio__title {
   opacity: 1;
   transform: translateY(0);
 }
 
 @media screen and (max-width: 1024px) {
-  .portfolio__filters {
-    justify-content: center;
-  }
-
   .portfolio__container {
     grid-template-columns: repeat(2, 330px);
     justify-content: center;
@@ -143,10 +86,6 @@
     grid-template-columns: 310px;
     justify-content: center;
     row-gap: 1.875rem;
-  }
-
-  .portfolio__filters {
-    row-gap: 0.25rem;
   }
 }
 
