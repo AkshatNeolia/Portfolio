@@ -4,7 +4,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Skills from './components/services/Skills';
-import Resume from './components/resume/Resume';
+import Resume from './components/Experience/Resume';
 import Portfolio from './components/portfolio/Portfolio';
 import Education from './components/blog/Education';
 import Contact from './components/contact/Contact';

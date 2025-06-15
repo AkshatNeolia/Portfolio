@@ -1,13 +1,13 @@
-import Work1 from "../../assets/native-jobs.png";
-import Work2 from "../../assets/cryptoverse.png";
-import Work3 from "../../assets/travel.png";
-import Work4 from "../../assets/blog-1.svg";
+import Work1 from "../../assets/Krishi.png";
+import Work2 from "../../assets/FaceTrack.png";
+import Work3 from "../../assets/SMS.png";
+import Work4 from "../../assets/Spamm.png";
 
 const Menu = [
   {
     id: 1,
     image: Work1,
-    title: "krishi-farmer-app",
+    title: "Krishi",
     repositoryUrl: "https://github.com/AkshatNeolia/krishi-farmer-app",
   },
   {

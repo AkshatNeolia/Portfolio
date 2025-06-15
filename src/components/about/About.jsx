@@ -1,14 +1,12 @@
 import React from 'react';
 import './About.css';
-import Image from '../../assets/avatar-2.svg';
+import Image from '../../assets/avatar-4.svg';
 import Resume from '../../assets/Akshat_Neolia Resume.pdf';
-import AboutBox from './AboutBox';
 
 const About = () => {
     const downloadResume = async () => {
         window.open(Resume, '_blank');
     }
-
 
     return (
         <section className="about container section" id="about">
@@ -20,7 +18,7 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            Hi, I'm Akshat Neolia an aspiring Machine Learning and Data Science based in Ghaziabad, Uttar Pradesh.
+                            Hi, I'm Akshat Neolia an aspiring Data Scientist based in Ghaziabad, Uttar Pradesh.
                             I'm currently in my final year at SRM Institute of Science and Technology, pursuing a B.Tech in Computer Science and Engineering with a specialization in Information Technology.
                             Over the past few years, I've developed a strong interest in building intelligent systems that solve real-world problems.
                             I'm constantly working on improving my technical skills by building hands-on projects, contributing to open source, and completing certifications in areas like deep learning and data analytics.
@@ -72,7 +70,6 @@ const About = () => {
                 </div>
             </div>
 
-            <AboutBox />
         </section>
     )
 }
